@@ -1,0 +1,52 @@
+html,
+body {
+  height: 100%;
+
+}
+
+body {
+  display: flex;
+  align-items: center;
+  background-image: url("../images/bg2.jpg");
+  background-size: cover ;
+  background-repeat: no-repeat ;
+
+}
+
+
+
+.form-signin {
+  width: 100% ;
+  max-width : 330px ;
+  padding: 15px;
+  margin: auto;
+
+}
+
+
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.fname{
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  margin-bottom: -1px;
+
+}
+
+.lname{
+  border-radius: 0;
+  margin-bottom: -1px;
+}
+
+.emailAddress{
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.signupButton{
+  width:300px ;
+  margin-top: 10px ;
+}
